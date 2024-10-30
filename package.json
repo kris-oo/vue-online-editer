@@ -1,0 +1,26 @@
+{
+  "name": "vue-online-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.38",
+    "ant-design-vue": "^4.1.2",
+    "monaco-editor": "^0.45.0",
+    "@vueuse/core": "^10.7.0",
+    "localforage": "^1.10.0",
+    "@vue/compiler-sfc": "^3.4.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.1.4",
+    "less": "^4.2.0"
+  }
+}
